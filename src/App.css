@@ -1,0 +1,11 @@
+
+.bg-gradient-to-r:hover{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+.bg-gradient-to-r:hover ~ .user-info{
+    display: flex;
+}
+.user-info:hover ~ .bg-gradient-to-r{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    display: flex;
+}
